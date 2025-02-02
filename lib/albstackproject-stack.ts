@@ -3,8 +3,7 @@ import { Construct } from 'constructs';
 import * as ec2 from 'aws-cdk-lib/aws-ec2'
 import * as elbv2 from 'aws-cdk-lib/aws-elasticloadbalancingv2'
 import * as autoscaling from 'aws-cdk-lib/aws-autoscaling'
-import {CfnOutput} from 'aws-cdk-lib'
-// import * as logs from 'aws-cdk-lib/aws-logs';
+// import {CfnOutput} from 'aws-cdk-lib'
 import * as s3 from 'aws-cdk-lib/aws-s3';
 
 export class AlbStackProjectStack extends cdk.Stack {
